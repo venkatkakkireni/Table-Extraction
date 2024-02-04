@@ -5,3 +5,4 @@ pytesseract
 numpy
 pandas
 matplotlib
+tensorflow
