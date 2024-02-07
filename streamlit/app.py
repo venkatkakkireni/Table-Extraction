@@ -22,7 +22,7 @@ def main():
     st.image(image_url, width=500)
     
     st.sidebar.header("About")
-    with open('about.txt', 'r') as f:
+    with open('streamlit/about.txt', 'r') as f:
         about_txt = f.read()
     st.sidebar.write(about_txt)
 
