@@ -14,7 +14,7 @@ def load_interpreter(model_path=None):
     This function loads a tflite model interpreter 
     """
     if model_path is None:
-        model_path = 'tablenet_densenet121_lite.tflite'
+        model_path = 'streamlit/tablenet_densenet121_lite.tflite'
     interpreter = tf.lite.Interpreter(model_path=model_path)
     interpreter.allocate_tensors()
     return interpreter 
